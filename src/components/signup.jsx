@@ -5,15 +5,12 @@ const Signup = () => {
   return (
     <div className="signup-container">
       <div className="signup-card">
-        {/* Icon */}
         <div className="icon-wrapper">
           <span className="arrow-icon">➜</span>
         </div>
 
-        {/* Heading */}
-        <h2 className="signup-title">Sign up for instructors</h2>
+        <h2 className="signup-title">Sign up For instructors</h2>
 
-        {/* Form */}
         <form className="signup-form">
           <div className="input-group">
             <span className="input-icon">📧</span>
