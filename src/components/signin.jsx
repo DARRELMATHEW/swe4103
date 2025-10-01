@@ -1,9 +1,9 @@
 import React from "react";
 import "./sign.css";
-import { Mail, Key, Lock, MoveRight } from "lucide-react";
+import { Mail, Lock, MoveRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const Signup = () => {
+const Signin = () => {
   return (
     <div className="signup-container">
       <div className="signup-card">
@@ -11,7 +11,7 @@ const Signup = () => {
           <span className="arrow-icon"><MoveRight /></span>
         </div>
 
-        <h2 className="signup-title">Sign Up For Instructors</h2>
+        <h2 className="signup-title">Sign In</h2>
 
         <form className="signup-form">
           <div className="input-group">
@@ -20,21 +20,17 @@ const Signup = () => {
           </div>
 
           <div className="input-group">
-            <span className="input-icon"><Key /></span>
-            <input type="text" placeholder="Personal Token" required />
-          </div>
-
-          <div className="input-group">
             <span className="input-icon"><Lock /></span>
             <input type="password" placeholder="Password" required />
           </div>
 
           <button type="submit" className="submit-btn">
-            Get Started
+            Sign In
           </button>
 
           <div className="signin-btn-wrapper">
-            <Link to="/signin">Already have an account? Sign In</Link>
+            <Link to="/signup">Don’t have an account? Sign Up</Link>
+
           </div>
         </form>
       </div>
@@ -42,4 +38,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default Signin;
