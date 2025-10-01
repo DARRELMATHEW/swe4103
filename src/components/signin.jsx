@@ -11,7 +11,7 @@ const Signin = () => {
           <span className="arrow-icon"><MoveRight /></span>
         </div>
 
-        <h2 className="signup-title">Sign In</h2>
+        <h2 className="signup-title">Sign In for Instructors</h2>
 
         <form className="signup-form">
           <div className="input-group">
@@ -29,7 +29,7 @@ const Signin = () => {
           </button>
 
           <div className="signin-btn-wrapper">
-            <Link to="/signup">Don’t have an account? Sign Up</Link>
+            <Link to="/Instructor/SignUp">Don’t have an account? Sign Up</Link>
 
           </div>
         </form>
